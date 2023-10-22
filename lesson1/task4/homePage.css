@@ -1,0 +1,33 @@
+body {
+    background-color: #D1FFFF;
+}
+
+
+div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#video1 {
+    margin-left: 0.3em;
+}
+
+#video2 {
+    margin-left: 64em;
+}
+
+p {
+    font-style: italic;
+
+}
+
+
+p.videoOnTheRight {
+    margin-left: 64em;
+    text-align: center;
+}
+
+p.videoOnTheLeft {
+    margin-left: 10em;
+}
+
