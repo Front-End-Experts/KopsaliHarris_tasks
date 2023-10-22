@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+}
+
+div.redirectionBtn {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: darkgray;
+    width: 10em;
+    height: 5em;
+}
+
+button:hover {
+    background-color: lime;
+}
