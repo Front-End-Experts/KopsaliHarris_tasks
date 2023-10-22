@@ -1,0 +1,13 @@
+p.textP {
+    text-align: justify;
+    margin-top: 5em;
+    margin-left: 25em;
+    margin-right: 5em;
+    font-family: cursive;
+}
+
+div {
+    margin-top: 7em;
+    margin-left: 2.5em;
+}
+
