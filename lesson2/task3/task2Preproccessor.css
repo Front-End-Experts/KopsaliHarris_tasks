@@ -1,0 +1,34 @@
+#main-menu {
+  background-color: cyan;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listElements {
+  color: black;
+}
+
+.listElements:hover {
+  color: plum;
+}
+
+#data-highlight {
+  color: brown;
+}
+
+#menu {
+  /* general for padding, margin, border: top, right, bottom, left (clockwise) */
+  /* when the previews ones has one size (such as 3px) => all directions has 3px */
+  padding: 2em 3.5em 2em 3.5em;
+  border: 3px cyan outset;
+  margin: 2em;
+}
+
+ul li {
+  color: black;
+}
+
+div > ul {
+  line-height: 2em;
+}
+
+/*# sourceMappingURL=task2Preproccessor.css.map */
