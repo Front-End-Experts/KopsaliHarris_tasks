@@ -1,0 +1,47 @@
+/* When a user hovers over each menu item, 
+apply a smooth transition effect, 
+such as a color change or scaling, using CSS transitions. 
+Additionally, use pseudo-classes like :hover and :active 
+to enhance the interactive experience. */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid #e7e7e7;
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky; /* sticky navbar while scrolling */
+    top: 0;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    transition: all 0.5s ease-in-out;
+}
+
+li:hover {
+    background-color: aquamarine;
+    text-align: center;
+    width: 5em;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+li a {
+    color: whitesmoke;
+
+}
+
+.active {
+    background-color: gray;
+}
